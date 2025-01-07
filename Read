@@ -1,0 +1,3 @@
+SELECT nama_makanan, jumlah
+FROM makanan
+WHERE jumlah = 30;
