@@ -1,0 +1,1 @@
+DELETE FROM makanan WHERE nama_makanan = 'Ayam bakar – kari';
