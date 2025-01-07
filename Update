@@ -1,0 +1,3 @@
+UPDATE makanan
+SET jumlah = jumlah + 50
+WHERE id_jenis_makanan = 1;
