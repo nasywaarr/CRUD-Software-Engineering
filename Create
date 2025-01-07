@@ -1,0 +1,19 @@
+CREATE TABLE makanan (
+ id_jenis_makanan INT PRIMARY KEY AUTO_INCREMENT,
+ nama_makanan VARCHAR(255) NOT NULL,
+ harga INT NOT NULL,
+ jumlah INT NOT NULL
+);
+
+INSERT INTO makanan (id_jenis_makanan, nama_makanan, harga, jumlah) 
+VALUES 
+(1, 'Ayam bakar - manis ', 25000, 50),
+(2, 'Ayam bakar - kari', 25000, 50), 
+(3, 'Ayam bakar - rujak', 25000, 50),
+(4, 'Iga sapi bakar - manis', 40000, 30),
+(5, 'Iga sapi bakar - pedas', 40000, 30),
+(6, 'Sop - daging sapi', 35000, 40),
+(7, 'Sop – kambing', 35000, 40),
+(8, 'Sop - ayam', 20000, 50),
+(9, 'Bebek bakar - manis', 40000, 30),
+(10, 'Bebek bakar - pedas', 40000, 30);
